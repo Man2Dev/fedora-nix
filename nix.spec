@@ -7,11 +7,11 @@ License:        LGPL-2.1
 URL:            https://releases.nixos.org/nix/nix-2.22.1
 Source0:        %{url}/%{name}-%{version}-x86_64-linux.tar.xz
 Source1:        %{url}/%{name}-%{version}-aarch64-linux.tar.xz
-Source3: 	GPL-3.0-or-later.txt
+Source3:        GPL-3.0-or-later.txt
 
-ExclusiveArch:	x86_64 aarch64
+ExclusiveArch:  x86_64 aarch64
 
-BuildRequires: 	tar
+BuildRequires:  tar
 BuildRequires:  xz
 Requires:       
 
