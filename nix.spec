@@ -3,7 +3,7 @@ Version:        2.22.1
 Release:        1%{?dist}
 Summary:        Nix package manager
 
-License:        
+License:        LGPL-2.1
 URL:            https://releases.nixos.org/nix/nix-2.22.1
 Source0:        %{url}/%{name}-%{version}-x86_64-linux.tar.xz
 Source1:        %{url}/%{name}-%{version}-aarch64-linux.tar.xz
