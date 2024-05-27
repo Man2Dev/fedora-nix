@@ -10,9 +10,10 @@ Source1:        %{url}/%{name}-%{version}-i686-linux.tar.xz
 Source2:        %{url}/%{name}-%{version}-aarch64-linux.tar.xz
 Source4: 	GPL-3.0-or-later.txt
 
-ExclusiveArch: x86_64 aarch64 i386
+ExclusiveArch:	x86_64 aarch64 i386
 
-BuildRequires:  
+BuildRequires: 	tar
+BuildRequires:  xz
 Requires:       
 
 %description
