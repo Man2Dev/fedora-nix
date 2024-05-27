@@ -1,11 +1,11 @@
 Name:           nix
-Version:        
+Version:        2.22.1
 Release:        1%{?dist}
-Summary:        
+Summary:        Nix package manager
 
 License:        
-URL:            
-Source0:        
+URL:            https://releases.nixos.org/nix/nix-2.22.1/nix-2.22.1-x86_64-linux.tar.xz
+Source0:        %{name}-%{version}-x86_64-linux.tar.xz
 Source1: 	GPL-3.0-or-later.txt
 
 BuildRequires:  
