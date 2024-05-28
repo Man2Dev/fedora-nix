@@ -1,5 +1,4 @@
 # Nix package manager installed though RPM Package
-=====================
 
 This package allows you to easily install Nix, the powerful configuration management tool, on your system. Simply
 install this RPM using your favorite package manager (e.g., `dnf` or `yum`) and then use the `nix` command-line
